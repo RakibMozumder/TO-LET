@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/listviewRowTextId1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Location:" />
+
+    <TextView
+        android:id="@+id/listviewRowTextId2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:textAppearance="?attr/textAppearanceListItemSmall"
+        android:text="Email:"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+    <TextView
+        android:id="@+id/listviewRowTextId3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="FirstName" />
+
+    <TextView
+        android:id="@+id/listviewRowTextId4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:textAppearance="?attr/textAppearanceListItemSmall"
+        android:text="LastName"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+    <TextView
+        android:id="@+id/listviewRowTextId5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:textAppearance="?attr/textAppearanceListItemSmall"
+        android:text="Password"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/listviewRowTextId6"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:text="phone"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpic"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity.SearchActivity"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <AutoCompleteTextView
+        android:id="@+id/searchId"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:maxLines="1"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_@.0123456789"
+        android:hint="Location" />
+    <Button
+        android:id="@+id/locateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location in Map"
+        android:textColor="@color/black">
+
+    </Button>
+</LinearLayout>
+
+
+
+   <LinearLayout
+       android:gravity="bottom"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:orientation="vertical"
+           android:layout_gravity="center_vertical"
+           android:gravity="center">
+           <TextView
+               android:id="@+id/textViewPg"
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_above="@id/progressBar"
+               android:layout_centerHorizontal="true"
+               android:textColor="#F8C7C7"
+               android:text="0%"
+               android:textSize="30sp" />
+
+           <ProgressBar
+               android:id="@+id/progressBar"
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="match_parent"
+               android:layout_height="35dp"
+               android:layout_above="@id/seekBar"
+               android:layout_alignParentStart="true"
+               android:layout_marginBottom="10dp"
+               android:layout_alignParentLeft="true"
+               android:scrollbarSize="20dp"/>
+
+           <SeekBar
+               android:id="@+id/seekBar"
+               android:layout_width="match_parent"
+               android:layout_height="25dp"
+               android:layout_alignParentStart="true"
+               android:layout_centerVertical="true"
+               android:layout_alignParentLeft="true" />
+
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:gravity="bottom"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:orientation="horizontal"
+           android:weightSum="2">
+
+           <Button
+               android:id="@+id/resetButtonId"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="#E0F1F1"
+               android:text="RESET FIELD"
+               android:textColor="#023C05"
+               android:textSize="16sp" />
+
+           <Button
+               android:id="@+id/searchButtonId"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="#034406"
+               android:text="SEARCH"
+               android:textColor="#ffff"
+               android:textSize="16sp" />
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+    </LinearLayout>

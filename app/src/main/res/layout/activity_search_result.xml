@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/backgroundpic"
+    tools:context=".Activity.SearchResultActivity">
+  <!--  <ListView
+        android:id="@+id/searchResultListViewId"
+        android:listSelector="#9C27B0"
+        android:divider="#3F51B5"
+        android:dividerHeight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>-->
+
+  <LinearLayout
+       android:layout_weight="1"
+       android:weightSum="5"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Search Results"
+            android:textSize="18sp"
+            android:textColor="#E1DFF0"
+            android:gravity="center"/>
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Save"
+            android:textSize="18sp"
+            android:textColor="#E1DFF0"
+            android:gravity="center"/>
+
+   </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/searchResultListViewId"
+            android:listSelector="#9C27B0"
+            android:divider="#3F51B5"
+            android:dividerHeight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/ratingId"
+            android:textColorHighlight="#2196F3"
+            android:text="RATINGS"
+            android:background="#E0F1F1"
+            android:textColor="#049C0D"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/latestId"
+            android:text="LATEST"
+            android:background="#E0F1F1"
+            android:textColor="#049C0D"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/priceId"
+            android:text="PRICE"
+            android:background="#E0F1F1"
+            android:textColor="#049C0D"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bedId"
+            android:text="BEDS"
+            android:background="#E0F1F1"
+            android:textColor="#049C0D"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/areaId"
+            android:text="AREA"
+            android:background="#E0F1F1"
+            android:textColor="#049C0D"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

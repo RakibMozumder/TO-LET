@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TO-LET</string>
+    <string name="openDrawer">openDrawerContentDescRes</string>
+    <string name="closeDrawer">closeDrawerContentDescRes</string>
+
+    <string name="nav_header_title">Home Rentals</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="numbers">
+        <item>One option</item>
+        <item>Two option</item>
+
+    </string-array>
+</resources>

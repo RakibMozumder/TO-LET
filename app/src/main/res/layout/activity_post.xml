@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PostActivity"
+    android:orientation="vertical"
+
+    android:background="@drawable/backgroundpic">
+    <EditText
+        android:id="@+id/phoneNumberPostId"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:hint="Phone Number"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        />
+
+    <EditText
+        android:id="@+id/areaId"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ_,:0123456789"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="location details"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/bedRoomId"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Bed Room Number"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/latestId"
+        android:inputType="date"
+        android:digits="0123456789/"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#000000"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        />
+    <EditText
+        android:id="@+id/priceId"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Price in TK"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/sizeId"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Flat Size in Sq.Ft."
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/Propic"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/userphoto" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+        <Button
+            android:id="@+id/btnchooseId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:background="#044106"/>
+
+        <TextView
+            android:id="@+id/txtchooseId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:layout_weight="2">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/postId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:background="#044106"/>
+
+
+</LinearLayout>

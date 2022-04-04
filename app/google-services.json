@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "73577945571",
+    "firebase_url": "https://to-let-18884.firebaseio.com",
+    "project_id": "to-let-18884",
+    "storage_bucket": "to-let-18884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73577945571:android:06b71286afd51cab",
+        "android_client_info": {
+          "package_name": "com.example.to_let"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73577945571-upp4k60e36a09l341gtjfljqlo08gnop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.to_let",
+            "certificate_hash": "d213686ff0dce8dfbfccdea7b7636e6f269773a0"
+          }
+        },
+        {
+          "client_id": "73577945571-ft9qecal92sj6lb8k91upq16ln0b1bil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.to_let",
+            "certificate_hash": "bc95c95c6a77104520085fc60385c4bd68f31cb5"
+          }
+        },
+        {
+          "client_id": "73577945571-fctm5m8f3qmfs5jkatdmsp1gdpm1om5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckGSL25GaySosJt19h55SdvMkBZK85hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73577945571-fctm5m8f3qmfs5jkatdmsp1gdpm1om5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
